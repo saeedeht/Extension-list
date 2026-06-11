@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  background-color: rgb(4, 4, 63);
+  background-color: #09153E;
   color: aliceblue;
   height: 100%;
   width: 100%;
+  padding: 30px 60px;
 }
