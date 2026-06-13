@@ -2,17 +2,14 @@ import { CardsList } from "./components/CardsList";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { TopHeader } from "./components/TopHeader";
-// import { product } from "../public/product.json";
-
-// const products = JSON.stringify(product);
+import products from "./assets/data/product.json";
 
 function App() {
-  // console.log("hi", products);
   return (
     <>
       <Header />
-      <TopHeader />
-      <CardsList />
+      <TopHeader products={products} />
+      <CardsList products={products} />
       <Footer />
     </>
   );
